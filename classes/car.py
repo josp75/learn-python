@@ -1,7 +1,10 @@
+import string
+
+
 class Car:
     """A simple attempt to represent a car."""
 
-    def __init__(self, make, model, year):
+    def __init__(self, make: string, model, year):
         self.make = make
         self.model = model
         self.year = year
