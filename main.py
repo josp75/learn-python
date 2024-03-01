@@ -31,7 +31,7 @@ if __name__ == '__main__':
     functions()
     dog = Dog("Dick", 34)
     print(dog.sit())
-    my_tesla = ElectricalCar('Tesla', 'Models', 2016)
+    my_tesla = ElectricalCar('Tesla', 'Models', 2016, name="KEL")
     print(my_tesla.get_descriptive_name())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
